@@ -21,6 +21,7 @@ const onSubmit = async () => {
 	} else {
 		const errorMessage = createErrorMessage();
 		carrousel.append(errorMessage);
+		carrousel.className = "carrousel";
 	}
 };
 
@@ -29,6 +30,7 @@ const clean = () => {
 	carrousel.innerHTML = "";
 	const cleanMessage = createCleanMessage();
 	carrousel.append(cleanMessage);
+	carrousel.className = "carrousel";
 };
 
 clearButton.onclick = clean;
