@@ -14,6 +14,10 @@
 	font-family: 'Solway', serif;
 }
 
+*:focus {
+    outline: none;
+}
+
 html {
 	font-size: 62.5%;
 	background: var(--gradient);
@@ -81,6 +85,7 @@ main {
 	padding: 2rem 1rem;
 	font-size: 2rem;
 	border-radius: 10rem;
+	border: none;
 	outline: none;
 }
 
