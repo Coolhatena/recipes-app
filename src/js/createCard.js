@@ -7,7 +7,7 @@ const createCard = (recipe) => {
 	img.src = recipe.image_url;
 	const title = document.createElement("p");
 	title.className = "title";
-	title.textContent = recipe.title;
+	title.innerHTML = recipe.title;
 	const author = document.createElement("p");
 	author.className = "author";
 	author.textContent = `Hecho por: ${recipe.publisher}`;
